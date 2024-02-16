@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gen_z | New Generation</title>
+
+    <!-- custom links -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+
+    <!-- logo -->
+    <header>
+        <h1 class="logo">
+            gen_z
+            <span class="version">
+                Beta
+            </span>
+        </h1>
+    </header>
+
+    <!-- main container -->
+    <section id="mainSection">
+        <div class="mainContainer">
+            <h3>
+                Share your thoughts with your buddy.....
+            </h3>
+            <textarea placeholder="your thoughts" name="" id="textArea" cols="50" rows="10"></textarea>
+        </div>
+        <p>
+            YOUR HAVE TO WRITE AT LEAST 20 CHARACTERS.......
+        </p>
+        <button id="btn-post" disabled>
+            Post
+        </button>
+        <br><br><br>
+    </section>
+
+    <section id="popUpSection" style="display: none;">
+        <div class="popUp">
+            <input placeholder="enter your user name" type="text" name="" class="inputArea" id="userName">
+            <br>
+            <input placeholder="enter your password" type="password" name="" class="inputArea" id="password">
+            <br>
+            <button id="btn-confim">
+                Confirm
+            </button>
+        </div>
+    </section>
+
+    <section id="post" style="display: none;">
+        <div class="userPost" id="userPost">
+            <p class="userName" id="user">
+                userName
+            </p>
+            <p class="postContain" id="postContain">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ex modi animi quae impedit magni, molestiae corporis perferendis vero explicabo hic eveniet aperiam dolorem consequatur et ipsa mollitia, nostrum velit!
+            </p>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        All Rights Reserved by gen_z @ 2024
+    </footer>
+    <br>
+
+
+    <!-- custom links -->
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
